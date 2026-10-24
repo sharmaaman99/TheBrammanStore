@@ -40,8 +40,9 @@ const connectDB = async (seedData = {}) => {
 
   try {
     await mongoose.connect(uri, {
-      serverSelectionTimeoutMS: 6000,
-      connectTimeoutMS: 10000,
+      serverSelectionTimeoutMS: 20000,
+      connectTimeoutMS: 20000,
+      socketTimeoutMS: 45000,
     });
 
     isConnected = true;
