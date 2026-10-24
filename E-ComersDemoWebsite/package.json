@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postinstall": "node scripts/postinstall-shim.cjs",
     "preview": "vite preview"
   },
   "dependencies": {

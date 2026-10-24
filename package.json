@@ -4,6 +4,7 @@
   "description": "The Brahmman Store - Indian Philosophy Streetwear Brand E-Commerce Platform, 3D Admin Portal, and Core API",
   "scripts": {
     "build": "cd E-ComersDemoWebsite && npm install && npm run build",
+    "postinstall": "node scripts/postinstall-shim.cjs",
     "start": "cd E-ComersDemoWebsite && npm run preview",
     "start:server": "cd E-ComersDemoServer && npm start",
     "dev:server": "cd E-ComersDemoServer && node index.js",

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "echo 'Server build complete'",
+    "postinstall": "node scripts/postinstall-shim.cjs",
     "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
