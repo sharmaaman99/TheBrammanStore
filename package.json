@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "The Brahmman Store - Indian Philosophy Streetwear Brand E-Commerce Platform, 3D Admin Portal, and Core API",
   "scripts": {
+    "build": "cd E-ComersDemoWebsite && npm install && npm run build",
+    "start": "cd E-ComersDemoWebsite && npm run preview",
     "start:server": "cd E-ComersDemoServer && npm start",
     "dev:server": "cd E-ComersDemoServer && node index.js",
     "dev:website": "cd E-ComersDemoWebsite && npm run dev",
