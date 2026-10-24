@@ -1,0 +1,56 @@
+# ==============================================================================
+# The Brahmman Store - Global Monorepo Git Ignore
+# ==============================================================================
+
+# Dependencies (Never commit node_modules)
+node_modules/
+*/node_modules/
+*/*/node_modules/
+.pnp
+.pnp.js
+
+# Environment Configuration & Secret Keys
+.env
+.env.*
+*.env
+*/.env
+*/.env.*
+*/*/.env
+*/*/.env.*
+# Keep template files committed for team reference:
+!.env.example
+!*/.env.example
+!*/*/.env.example
+
+# Production Bundles & Build Output
+dist/
+*/dist/
+build/
+*/build/
+.next/
+out/
+*.tsbuildinfo
+
+# Debugging, Performance & Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & OS Files
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE & Editor Configs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~

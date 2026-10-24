@@ -1,0 +1,25 @@
+{
+  "name": "the-brahmman-store-monorepo",
+  "version": "1.0.0",
+  "description": "The Brahmman Store - Indian Philosophy Streetwear Brand E-Commerce Platform, 3D Admin Portal, and Core API",
+  "scripts": {
+    "start:server": "cd E-ComersDemoServer && npm start",
+    "dev:server": "cd E-ComersDemoServer && node index.js",
+    "dev:website": "cd E-ComersDemoWebsite && npm run dev",
+    "dev:admin": "cd E-ComersDemoAdmin && npm run dev",
+    "build:website": "cd E-ComersDemoWebsite && npm run build",
+    "build:admin": "cd E-ComersDemoAdmin && npm run build",
+    "build:all": "npm run build:website && npm run build:admin"
+  },
+  "keywords": [
+    "streetwear",
+    "react",
+    "tailwind",
+    "framer-motion",
+    "threejs",
+    "the-brahmman-store",
+    "e-commerce"
+  ],
+  "author": "The Brahmman Store",
+  "license": "ISC"
+}
